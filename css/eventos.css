@@ -1,0 +1,226 @@
+*{ padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+          
+ }
+ 
+ body{
+     
+     background: linear-gradient(black, 30%, rgb(161, 15, 149), 70%,black);
+     color:white;
+     width: 1024px;
+     height: 2200px;
+ 
+ 
+ }
+ #logocircular{
+     position:absolute;
+     top: 20px;
+     left: 80px;
+     width: 150px;
+    }
+ h1 {
+     text-align: center;
+     font-family: 'cheque';
+     position: absolute;
+     top: 50px;
+     left: 370px;
+     font-size: 60px;
+ }
+ .titulo{
+     text-align: center;
+     font-family: 'Berlin Sans FB';
+     position: absolute;
+     top: 125px;
+     left: 340px;
+     font-size: 25px;
+ 
+ }
+ .menu{
+     position: absolute;
+     background-color: rgb(161, 15, 149);
+     width: 750px;
+     height: 30px;
+     opacity: 60%;
+     top: 180px;
+     left: 90px;
+        
+     
+ }
+ #inicio{
+     position: relative;
+     color: white;
+     text-align: center;
+     font-family: 'Berlin Sans FB';
+     top: 185px;
+     left: 240px;
+     font-size: 20px ;
+     text-decoration: none;
+ }
+ 
+ #eventos{
+     position: relative;
+     color: rgb(236, 107, 226);
+     text-align: center;
+     font-family: 'Berlin Sans FB';
+     top: 185px;
+     left: 290px;
+     font-size: 20px ;
+     text-decoration: none;
+ }
+ #nosotras{
+     position: relative;
+     color: white;
+     text-align: center;
+     font-family: 'Berlin Sans FB';
+     top: 185px;
+     left: 340px;
+     font-size: 20px ;
+     text-decoration: none;
+ }
+ #contactos{
+     position: relative;
+     color: white;
+     text-align: center;
+     font-family: 'Berlin Sans FB';
+     top: 185px;
+     left: 390px;
+     font-size: 20px ;
+     text-decoration: none;
+ }
+ #imagenbrillo{
+     position: absolute;
+     top:50px;
+     left: 140px;
+     height: 680px;
+     width: 680px;
+ }
+ 
+ .base{
+    
+     position: relative;
+     top: 200px;
+     left: 70px;
+     width: 790px;
+     height: 510px;
+     opacity: 60%;
+     background-color: black;
+     
+ 
+ }
+ .texto{ 
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    font-family: 'Berlin Sans FB';
+    color:white;
+    font-size: 17px;
+    overflow: hidden;
+    height: 550px;
+    width: 780px;
+    
+}
+#book{
+    position: absolute;
+    top: 800px;
+    left: 60px;
+    width: 900px;
+    height: 500px;
+}
+
+.galeria{
+    top:1000px;
+    display: inline-block;
+    width: 200px;
+    overflow: hidden;
+    
+
+}
+
+.menucontactos{
+     position: absolute;
+     background-color: rgb(172, 9, 162);
+     width: 750px;
+     height: 30px;
+     opacity: 50%;
+     top: 1950px;
+     left: 90px;
+ 
+ }
+ .cont{ 
+    position: absolute;
+    top: 1950px;
+    left: 100px;
+    font-family: 'Berlin Sans FB';
+    color:white;
+    font-size: 25px;
+}
+
+ 
+ #info{
+     position: absolute;
+     top: 2000px;
+     left: 135px;
+     font-family: 'Berlin Sans FB';
+     color:white;
+     font-size: 25px;
+     list-style-type: none;
+     
+ }
+ 
+ #logoscontactos {    
+     list-style-type: none;
+ }
+ .logo1{
+     
+     position: absolute;
+     top: 2002px;
+     left: 110px;
+     width: 22px;
+     height: 22px;
+ }
+ .logo2{
+     
+     position: absolute;
+     top: 2033px;
+     left: 110px;
+     width: 22px;
+     height: 22px;
+ 
+ }
+ .logo3{
+     
+     position: absolute;
+     top: 2059px;
+     left: 110px;
+     width: 22px;
+     height: 22px;
+ 
+ }
+ .logo4{
+     
+     position: absolute;
+     top: 2085px;
+     left: 110px;
+     width: 22px;
+     height: 22px;
+ 
+ }
+ .ubicacion{
+     
+     position: absolute;
+     top: 1980px;
+     left: 600px;
+     width: 100px;
+     height: 100px;
+ 
+ }
+ #ub{
+     position: absolute;
+     top: 2080px;
+     left: 520px;
+     font-family: 'Berlin Sans FB';
+     color:white;
+     font-size: 20px;
+     text-align: center;
+ }
