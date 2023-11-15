@@ -20,208 +20,179 @@
      left: 80px;
      width: 150px;
     }
- h1 {
-     text-align: center;
-     font-family: 'cheque';
-     position: absolute;
-     top: 50px;
-     left: 370px;
-     font-size: 60px;
- }
- .titulo{
-     text-align: center;
-     font-family: 'Berlin Sans FB';
-     position: absolute;
-     top: 125px;
-     left: 340px;
-     font-size: 25px;
- 
- }
- .menu{
-     position: absolute;
-     background-color: rgb(161, 15, 149);
-     width: 1010px;
-     height: 30px;
-     opacity: 60%;
-     top: 180px;
-     left: 90px;
-        
+    .titulo{
+        left: 450px;
+        font-family: 'cheque';
+        position: absolute;
+        display:inline-block;
+        font-size: 50px;
+        text-align: center;
      
- }
- #inicio{
-     position: relative;
-     color: white;
-     text-align: center;
-     font-family: 'Berlin Sans FB';
-     top: 185px;
-     left: 240px;
-     font-size: 20px ;
-     text-decoration: none;
- }
- 
- #eventos{
-     position: relative;
-     color: white;
-     text-align: center;
-     font-family: 'Berlin Sans FB';
-     top: 185px;
-     left: 290px;
-     font-size: 20px ;
-     text-decoration: none;
- }
- #nosotras{
-     position: relative;
-     color:rgb(236, 107, 226);
-     text-align: center;
-     font-family: 'Berlin Sans FB';
-     top: 185px;
-     left: 340px;
-     font-size: 20px ;
-     text-decoration: none;
- }
- #contactos{
-     position: relative;
-     color: white;
-     text-align: center;
-     font-family: 'Berlin Sans FB';
-     top: 185px;
-     left: 390px;
-     font-size: 20px ;
-     text-decoration: none;
- }
- #imagenbrillo{
-     position: absolute;
-     top:50px;
-     left: 180px;
-     height: 800px;
+     }
     
- }
- 
+     h2{
+        font-family: 'Berlin Sans FB';
+        font-size: 30px;
+    }
+    
+     .menu{
+        cursor:pointer;
+        position: relative;
+        text-align: center;
+        top: 185px;
+        display:inline-block;
+        background-color: black;
+        height: 50px;
+        width: 1224PX;
+        opacity: 90%;
+     }
+    
+    
+     div{
+        position: relative;
+        top: 15px;
+    }
+    
+    .nosotras{    
+        padding: 30px;
+        color: rgb(236, 107, 226);
+        text-align: center;
+        font-family: 'Berlin Sans FB';
+        font-size: 20px ;
+        text-decoration: none;
+    }
+    
+    .opciones{
+        padding: 30px; 
+        color: white;
+        font-family: 'Berlin Sans FB';
+        font-size: 20px ;
+        text-decoration: none;
+    }
+     #imagenbrillo{
+        position: absolute;
+        top:50px;
+        left: 100px;
+        height: 1000px;
+        width:1000px;
+     }
+
+.imagen{
+    position: absolute;
+    top:300px;
+    left: 30px;
+    height: 400px;
+    border-radius: 30px; 
+    }
+.conejo{
+    position: absolute;
+    height: 200px;
+    top:600px;
+    left: 550px;
+}
+.estrellas{
+    position: absolute;
+    left: 600px;
+    width: 600px;
+    top: 250px;
+}
  .base{
     
      position: relative;
      top: 200px;
-     left: 70px;
-     width: 790px;
+     left: 600px;
+     width: 600px;
      height: 510px;
-     opacity: 60%;
+     opacity: 90%;
      background-color: black;
+     
      
  
  }
  .texto{ 
-    position: absolute;
-    top: 10px;
+    
+    padding: 80px;
     text-align: center;
     font-family: 'Berlin Sans FB';
-    color:white;
-    font-size: 17px;
+    color:rgb(255, 0, 221);
+    font-size: 20px;
     overflow: hidden;
-    height: 550px;
-    width: 780px;
+  
     
 }
-#book{
-    position: absolute;
-    top: 800px;
-    left: 60px;
-    width: 900px;
-    height: 500px;
-}
-
-.galeria{
-    top:1000px;
-    display: inline-block;
-    width: 200px;
-    overflow: hidden;
-    
-
-}
-
 .menucontactos{
-     position: absolute;
-     background-color: rgb(172, 9, 162);
-     width: 1010px;
-     height: 30px;
-     opacity: 50%;
-     top: 1950px;
-     left: 90px;
- 
- }
- .cont{ 
+    
     position: absolute;
-    top: 1950px;
-    left: 100px;
+    background-color:black;
+    width: 1224px;
+    height: 300px;
+    top: 800px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 90%;
+
+}
+
+
+.info {
+    
+    position: relative;
+   
     font-family: 'Berlin Sans FB';
     color:white;
     font-size: 25px;
+    list-style-type: none;
+    padding: 30px;
+    width: 200px;
+    
+    
+}
+a,ul,.wsp{
+    font-family: 'Berlin Sans FB';
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
 }
 
- 
- #info{
-     position: absolute;
-     top: 2000px;
-     left: 135px;
-     font-family: 'Berlin Sans FB';
-     color:white;
-     font-size: 25px;
-     list-style-type: none;
+
+.logo1,.logo2,.logo3,.logo4 {
+    width: 22px;
+    height: 22px;
+
+}
+
+.qr{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 30px;
+}
+.wsp{
+    position: relative;
+    font-size: 25px;
+    
+}
+.ubicacion{    
+    width: 300px;
+    height: 200px;
+  
+}
+.ub{
+    position: relative;
+    font-family: 'Berlin Sans FB';
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    width: 300px;
      
- }
- 
- #logoscontactos {    
-     list-style-type: none;
- }
- .logo1{
-     
-     position: absolute;
-     top: 2002px;
-     left: 110px;
-     width: 22px;
-     height: 22px;
- }
- .logo2{
-     
-     position: absolute;
-     top: 2033px;
-     left: 110px;
-     width: 22px;
-     height: 22px;
- 
- }
- .logo3{
-     
-     position: absolute;
-     top: 2059px;
-     left: 110px;
-     width: 22px;
-     height: 22px;
- 
- }
- .logo4{
-     
-     position: absolute;
-     top: 2085px;
-     left: 110px;
-     width: 22px;
-     height: 22px;
- 
- }
- .ubicacion{
-     
-     position: absolute;
-     top: 1980px;
-     left: 600px;
-     width: 100px;
-     height: 100px;
- 
- }
- #ub{
-     position: absolute;
-     top: 2080px;
-     left: 520px;
-     font-family: 'Berlin Sans FB';
-     color:white;
-     font-size: 20px;
-     text-align: center;
- }
+}
+.wsp,.ub,.info{
+    padding: 50px;
+   
+  
+}
+.resaltar{
+    color: rgb(231, 111, 225);
+    text-decoration: underline;
+}
