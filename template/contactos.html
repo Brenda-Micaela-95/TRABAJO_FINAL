@@ -32,7 +32,7 @@
             <label for="whatsapp">Whatsapp:</label>
             <input type="text" id="whatsapp" name="wsp" /><br>
             <label for="consulta">Consulta:</label>
-            <textarea id="consulta" name="message"></textarea><br>
+            <textarea id="consulta" name="message"></textarea><br><br>
             <button  type="submit">Envíe su mensaje</button>
     </form>
 
@@ -69,14 +69,17 @@
     const form = document.querySelector('#form')
     form.addEventListener('submit',handLesubmit)
     function handLesubmit(Event){
+        
             Event.preventDefault()
             const form = new FormData(this)
+            
             console.log (form.get ('name'))
             console.log (form.get ('mail'))
             console.log (form.get ('wsp'))
             console.log (form.get ('message'))
             alert('mensaje enviado')
-            return form    
+            
+                
             }
            
             

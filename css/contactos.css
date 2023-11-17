@@ -171,14 +171,14 @@ a,ul,.wsp{
  form {
     margin: 0 auto;
     width: 400px;
-    height: 300px;
+    height: 500px;
     padding: 1em;
     border: 1px solid #ececec;
     background-color: rgb(66, 7, 56);
     border-radius: 2em;
     position: absolute;
-    top: 300px;
-    left: 250px;
+    top: 250px;
+    left: 350px;
   }
   ul {
     list-style: none;
@@ -188,17 +188,18 @@ a,ul,.wsp{
   label {
     font: 1em 'Berlin Sans FB';
     display: inline-block;
-    width: 90px;
+    width: 100px;
     text-align: left;
+    padding: 10px;
   }
 #consulta{
-    width: 300px;
+    width: 400px;
     height: 200px;
 }
   input,
 textarea {
     font: 1em 'Berlin Sans FB';
-    width: 300px;
+    width: 400px;
     box-sizing: border-box;
     border-radius: 1em solid #999;
 }
@@ -221,6 +222,7 @@ textarea {
     text-align: center;
     color: white;
     
+    
 }
 
 button {
@@ -230,5 +232,6 @@ button:hover{
     padding: 15px;
     background-color: rgb(194, 5, 184);
     color:white;
+    
     
 }
