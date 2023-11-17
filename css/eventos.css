@@ -28,7 +28,7 @@
     display:inline-block;
     font-size: 50px;
     text-align: center;
- 
+    opacity: 90%;
  }
 
  h2{
@@ -89,9 +89,6 @@
      background-color: black;
      border:   1px solid rgb(224, 129, 233) ;
      border-radius:20px;    
-    
-  
-     
  
  }
  .texto{ 
@@ -112,7 +109,7 @@ ul{list-style-type: none;}
     background-color:black;
     width: 1224px;
     height: 350px;
-    top: 200px;
+    top: 810px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -130,9 +127,7 @@ ul{list-style-type: none;}
     font-size: 25px;
     list-style-type: none;
     padding: 30px;
-    width: 200px;
-    
-    
+    width: 200px; 
     
 }
 a,ul,.wsp{
@@ -184,12 +179,7 @@ a,ul,.wsp{
     text-decoration: underline;
 }
 
-
-
-
-
-
- .contenedor {
+.contenedor {
     width: 100%;
     height: 540px;
     position: relative;

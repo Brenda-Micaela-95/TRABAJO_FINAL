@@ -37,3 +37,6 @@ var imagenes = document.querySelectorAll('.contenedor img');
 
             imagenes[imagenActual].classList.add('activar');
         });
+
+
+        
